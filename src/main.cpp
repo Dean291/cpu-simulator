@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-#include <iostream>
+#include <stdio.h>
 #include "../include/instruction.h"
 
 int main() {
@@ -15,11 +14,5 @@ int main() {
     printf("Opcode: %d\n", inst.opcode);
     printf("rd: %d, rs1: %d, rs2: %d\n", inst.rd, inst.rs1, inst.rs2);
 
-=======
-#include<iostream>
-
-int main(){
-    std::cout<< "CPU Simulator Starting..."<< std::endl;
->>>>>>> 0ce3b30528d5ee8db0acf0d7a13a3553128199eb
     return 0;
 }
