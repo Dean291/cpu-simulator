@@ -1,7 +1,7 @@
-#include <stdio.h>
+#include<stdio.h>
 #include "../include/instruction.h"
 
-int main() {
+int main(){
     Instruction inst;
 
     inst.opcode = SUB;
